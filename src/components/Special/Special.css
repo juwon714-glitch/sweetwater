@@ -1,0 +1,58 @@
+.special{
+padding:80px 60px;
+}
+
+.make {
+    font-family: "Inter";
+font-style: Italic;
+font-size: 96px;
+color: #81450A;
+}
+
+.highlight {
+    color: #FFBC0FED;
+}
+
+.grid {
+    h3 {
+        font-family: "Inter";
+        font-weight: 800;
+        font-style: Extra Bold;
+        font-size: 48px;
+        color: #FBB80AED;
+
+    }
+
+    p {
+        font-family: "Inter";
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        color: #B66B13;
+    }
+}
+
+.grid-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.special-grid{
+display:flex;
+flex-direction: column;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+@media(max-width:768px){
+
+.special-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-img {
+    display: flex;
+    flex-direction: column;
+}
+}

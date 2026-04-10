@@ -1,0 +1,43 @@
+.footer{
+background:#FFBC0F40;
+padding:60px;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:40px;
+}
+
+.Quick,h3 {
+    font-family: "Irish Grover";
+    color: #B66B13;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family:  "Inter";
+    color: #B66B13;
+
+    img {
+        width: 20px;
+    }
+        
+}
+
+.logo {
+
+    img {
+        width: 300px;
+    }
+}
+
+@media(max-width:768px){
+
+.footer-grid{
+grid-template-columns:1fr;
+}
+
+}

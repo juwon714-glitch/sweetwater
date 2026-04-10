@@ -1,0 +1,78 @@
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 60px;
+gap:40px;
+}
+
+h1 {
+   font-family: "Inria Sans";
+   font-style: italic;
+   font-size: 55px;
+
+   span {
+    color: #F6B50C;
+   }
+}
+
+.hero-text h1{
+
+color:#8b4b00;
+}
+
+.hero-text p{
+margin:20px 0;
+color:#777;
+}
+
+.hero-text button{
+background:#81450A;
+color: #FBCE43;
+border:none;
+padding:12px 24px;
+border-radius:20px;
+cursor:pointer;
+}
+
+.hero-stats{
+display:flex;
+gap:30px;
+margin-top:20px;
+font-family: "inter";
+color: #B66B13;
+}
+
+.hero-img img{
+width:700px;
+}
+
+.sub {
+    font-family: "Inria Sans";
+    font-weight: 700;
+    font-style: Italic;
+    font-size: 20px;
+    color: #B66B13;
+}
+
+
+
+.p3 {
+    font-family: "Inria Sans";
+    font-style: normal;
+    color: #B66B13;
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+padding:40px 20px;
+}
+
+.hero-img img{
+width:100%;
+}
+
+}

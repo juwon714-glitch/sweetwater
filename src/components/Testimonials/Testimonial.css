@@ -1,0 +1,35 @@
+.testimonials{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding: 60px;
+}
+
+.testimonial-card{
+  position: relative;
+  background: #FFBC0F4F;
+  color: #B66B13;
+  padding: 60px 20px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.avatar{
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.avatar img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+@media(max-width:768px){
+  .testimonials{
+    grid-template-columns: 1fr;
+  }
+}
