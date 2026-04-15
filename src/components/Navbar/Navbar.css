@@ -62,4 +62,10 @@ display:none;
 padding:20px;
 }
 
+.sweet {
+    p {
+        font-size: 30px;
+    }
+}
+
 }
