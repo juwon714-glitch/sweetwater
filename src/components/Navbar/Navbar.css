@@ -70,6 +70,8 @@ padding:20px;
 }
 
 .search{
+    display: none;
+
     img {
         display: none;
     }
