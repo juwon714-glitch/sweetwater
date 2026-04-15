@@ -55,4 +55,9 @@ gap:40px;
     display: flex;
     flex-direction: column;
 }
+
+.make, .highlight {
+    font-size: 48px;
+
+}
 }

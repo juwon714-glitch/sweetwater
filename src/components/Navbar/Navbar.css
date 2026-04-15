@@ -73,5 +73,9 @@ padding:20px;
     img {
         display: none;
     }
+
+    button {
+        display: none;
+    }
 }
 }
